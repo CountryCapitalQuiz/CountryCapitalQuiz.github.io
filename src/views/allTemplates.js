@@ -75,7 +75,7 @@ export const gameTempl = (question, answers, onChoice, onContinue) => html`
 
 
 export const endGameTempl = (continent, result, alls, time, points, onContinue) => html`
-<h4>${result} true answers from ${alls} question  of ${continent.toUpperCase()} in ${time} seconds.</h4>
+<h4>${result} correct answers to ${alls} question from ${continent.toUpperCase()} in ${time} seconds.</h4>
 <h4>Your score: ${points.toFixed(4)} </h4>
 <button id="exit" @click=${onContinue} class="entry">EXIT</button>
 <button id="new" @click=${onContinue} class="entry">TRY AGAIN</button>`;
