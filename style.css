@@ -1,0 +1,179 @@
+body {
+    background-image: url("./images/word-map.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    color: aquamarine;
+    font-size: 300%;
+    text-align: center;
+}
+
+.music {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    border-radius: 50%;
+    border: none;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+h3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h4 {
+    margin: 25px;
+}
+
+div {
+    display: block;
+    margin-top: 20px;
+}
+
+p {
+    margin: 5px;
+}
+
+.start {
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: aquamarine;
+    background-color: rgb(67, 73, 85);
+}
+
+.start:hover {
+    color: rgb(67, 73, 85);
+    background-color: aquamarine; 
+}
+
+.answ {
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: aquamarine;
+    background-color: rgb(67, 73, 85);
+}
+
+.answ:hover {
+    color: rgb(67, 73, 85);
+    background-color: aquamarine; 
+}
+
+.entry {
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: aquamarine;
+    background-color: rgb(67, 73, 85);
+}
+
+.entry:hover {
+    color: rgb(67, 73, 85);
+    background-color: aquamarine; 
+}
+
+.exit{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    color: rgb(8, 1, 1);
+    background: rgb(47, 80, 68); 
+    padding: 0px;
+    text-align:center;
+}
+
+.exit:hover {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine; 
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    font-size: 30px;
+    color: aquamarine;
+    background-color: rgb(67, 73, 85);
+    border: none;
+    border-radius: 10px;
+}
+
+#europe {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+}
+
+#asia {
+    position: absolute;
+    top: 48%;
+    left: 63%;
+}
+
+#america {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+#africa {
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+#oceania {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+
+.lds-dual-ring:after {
+content: " ";
+display: block;
+width: 64px;
+height: 64px;
+margin: 8px;
+border-radius: 50%;
+border: 6px solid #cef;
+border-color: #cef transparent #cef transparent;
+animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+  
