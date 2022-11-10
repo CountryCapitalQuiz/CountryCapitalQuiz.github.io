@@ -19,13 +19,9 @@ async function request(url, options) {
 function createOptions(method = 'get', data) {
     const options = {
         method,
-//         headers: {
-//             'X-Parse-Application-Id': 'bRrAggyHMoMVL9uPNl4T9XPzDFxHMRIrxTEieDEN',
-//             'X-Parse-REST-API-Key': 'oyNNM1odjhrSzfCkWtVmkFTiZPgmZUelFFkE5uhX'
-//         },
         headers: {
-            'X-Parse-Application-Id': ${{ secrets.APP_ID}},
-            'X-Parse-REST-API-Key': ${{ secrets.API_KEY}}
+            'X-Parse-Application-Id': 'bRrAggyHMoMVL9uPNl4T9XPzDFxHMRIrxTEieDEN',
+            'X-Parse-REST-API-Key': 'oyNNM1odjhrSzfCkWtVmkFTiZPgmZUelFFkE5uhX'
         }
     }
     if (data != undefined) {
