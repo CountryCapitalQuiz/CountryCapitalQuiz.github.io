@@ -64,7 +64,7 @@ export const gameTempl = (question, answers, onChoice, onContinue) => html`
 <h3>What's the Capital of:</h3>
 <h2>${question.name}</h2>
 <button id="new" class="exit" @click=${onContinue}>BACK</button>
-<div class="flex-row-col h-gap">
+<div class="flex-row-col h-gap mar-0">
     <div class="mar-0">
         <button id=${answers[0]} @click=${onChoice} class="answ">${answers[0]}</button>
         <button id=${answers[1]} @click=${onChoice} class="answ">${answers[1]}</button>
