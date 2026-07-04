@@ -6,7 +6,7 @@ export const loading = () => html`<div class="lds-dual-ring"></div>`;
 
 export const homeTempl = (onLog, onReg) => html`
 <h1>COUNTRY - CAPITAL QUIZ</h1>
-<div>
+<div class="flex-row-col">
     <button @click=${onLog} class="entry">LOGIN</button>
     <button @click=${onReg} class="entry">REGISTER</button>
 </div>`;
