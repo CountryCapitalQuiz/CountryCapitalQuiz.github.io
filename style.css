@@ -14,10 +14,6 @@ body {
     bottom: 5%;
 }
 
-h1 {
-    padding-top: 10%;
-}
-
 h3 {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -104,21 +100,6 @@ p {
     background-color: aquamarine; 
 }
 
-/* label {
-    display: block;
-    margin-bottom: 20px;
-}
-
-input {
-    width: 220px;
-    height: 40px;
-    font-size: 30px;
-    color: aquamarine;
-    background-color: rgb(67, 73, 85);
-    border: none;
-    border-radius: 10px;
-} */
-
 #europe {
     position: absolute;
     top: 38%;
@@ -171,7 +152,7 @@ input {
 
 label {
     margin: .5em;
-    font-size: 3em;
+    font-size: 1.5em;
     display: flex;
     align-items: flex-end;
     justify-content: center;
