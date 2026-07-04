@@ -172,6 +172,10 @@ input {
     margin: 0;
 }
 
+.h-gap {
+    gap: .5em;
+}
+
 @media (orientation: portrait) {
     .flex-row-col {
         flex-direction: column;
@@ -181,6 +185,10 @@ input {
         width: 250px;
         height: 80px;
         font-size: 1em;
+    }
+
+    .h-gap {
+        gap: 0;
     }
 
     #america {

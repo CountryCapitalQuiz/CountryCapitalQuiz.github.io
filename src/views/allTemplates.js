@@ -64,7 +64,7 @@ export const gameTempl = (question, answers, onChoice, onContinue) => html`
 <h3>What's the Capital of:</h3>
 <h2>${question.name}</h2>
 <button id="new" class="exit" @click=${onContinue}>BACK</button>
-<div class="flex-row-col">
+<div class="flex-row-col h-gap">
     <div class="mar-0">
         <button id=${answers[0]} @click=${onChoice} class="answ">${answers[0]}</button>
         <button id=${answers[1]} @click=${onChoice} class="answ">${answers[1]}</button>
@@ -80,4 +80,4 @@ export const endGameTempl = (continent, result, alls, time, points, onContinue) 
 <h4>${result} correct answers to ${alls} questions from ${continent.toUpperCase()} in ${time} seconds.</h4>
 <h4>Your score: ${points.toFixed(4)} </h4>
 <button id="exit" @click=${onContinue} class="entry">EXIT</button>
-<button id="new" @click=${onContinue} class="entry">TRY AGAIN</button>`;
+<button id="new" @click=${onContinue} class="entry">AGAIN</button>`;
