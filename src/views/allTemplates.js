@@ -14,10 +14,10 @@ export const homeTempl = (onLog, onReg) => html`
 
 export const loginTempl = (onCan, onLog) => html`
 <h1></h1>
-<label>USER:
+<label>USER
     <input type="text">
 </label>
-<label>PASSWORD:
+<label>PASSWORD
     <input type="text">
 </label>
 <button @click=${onCan} class="entry">CANCEL</button>
@@ -29,10 +29,10 @@ export const registerTempl = (onCan, onReg) => html`
 <label>USER:
     <input type="text">
 </label>
-<label>PASSWORD:
+<label>PASSWORD
     <input type="text">
 </label>
-<label>REPEATE PASS:
+<label>CONFIRM PASS
     <input type="text">
 </label>
 <button @click=${onCan} class="entry">CANCEL</button>
@@ -40,7 +40,7 @@ export const registerTempl = (onCan, onReg) => html`
 
 
 export const choiceTempl = (onChoice, onExit) => html`
-<h2>Select region:</h2>
+<h2>Select region</h2>
 <button class="exit" @click=${onExit}>EXIT</button>
 <div>
     <button id="europe" @click=${onChoice} class="entry">EUROPE</button>
@@ -61,7 +61,7 @@ ${data
 
 
 export const gameTempl = (question, answers, onChoice, onContinue) => html`
-<h3>What's the Capital of:</h3>
+<h3>What's the Capital of</h3>
 <h2>${question.name}</h2>
 <button id="new" class="exit" @click=${onContinue}>BACK</button>
 <div class="flex-row-col h-gap mar-0">
